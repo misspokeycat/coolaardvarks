@@ -1,0 +1,37 @@
+.center-text {
+    text-align: center;
+}
+
+body { 
+    padding-top: 70px; 
+    padding-bottom: 70px;
+}
+
+
+.jumbotron h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1000px){
+   .equal, .equal > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+    } 
+}
+
+
+
+
+.panel-tier .panel-heading h3{
+    font-weight: bold;
+    text-align:  center;
+}
+
+.panel-body {
+    height: 130px;
+}
