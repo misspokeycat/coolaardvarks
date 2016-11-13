@@ -2,6 +2,12 @@
     text-align: center;
 }
 
+.center-text h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+
 body { 
     padding-top: 70px; 
     padding-bottom: 70px;
@@ -11,6 +17,29 @@ body {
 .jumbotron h1{
     font-size: 50px;
     font-weight: bold;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.img-profile {
+    height: 150px;
+    width: 150px;
+}
+
+.panel-mtt{
+    min-height: 200px;
+    text-align: center;
 }
 
 @media screen and (min-width: 1000px){
@@ -24,6 +53,11 @@ body {
     } 
 }
 
+@media screen and (min-width: 700px){
+    .mobile {
+        display: none;
+    }
+}
 
 
 
