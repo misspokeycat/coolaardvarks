@@ -69,3 +69,7 @@ body {
 .panel-body {
     height: 130px;
 }
+
+.navbar-logo {
+    height: 20px;
+}
